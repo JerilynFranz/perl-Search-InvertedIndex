@@ -49,3 +49,5 @@
 
 1.16 2020.09.27 - Fixed permissions for Build.PL and Makefile.PL. Added strict and warnings to
                   Search::InvertedIndex::Db::Mysql
+
+1.17 2020.09.27 - Added LICENSE file to MANIFEST

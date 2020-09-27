@@ -20,7 +20,7 @@ system on demand.
 
 use vars qw($AUTOLOAD $VERSION);
 
-$VERSION = "1.16";
+$VERSION = "1.17";
 
 my $_autoloaded_functions = {};
 

@@ -1,6 +1,7 @@
 MANIFEST
 Build.PL
 Makefile.PL
+LICENSE
 README
 Changes
 lib/Search/InvertedIndex.pm

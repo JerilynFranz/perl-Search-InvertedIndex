@@ -10,7 +10,7 @@ use Search::InvertedIndex::AutoLoader;
 use vars qw (@ISA $VERSION);
 
 @ISA     = qw(Class::NamedParms);
-$VERSION = '1.16';
+$VERSION = '1.17';
 
 # Used to catch attempts to open the same -map
 # to multiple objects simultaneously and to
@@ -197,7 +197,6 @@ determine initialization requirements.
 
 =head1 CHANGES
 
-
  1.00 1999.06.16 - Initial release
 
  1.01 1999.06.17 - Documentation fixes and fix to 'close' method in
@@ -245,7 +244,12 @@ determine initialization requirements.
                   Addition of a test for MySQL functionality, Patch and test thanks to
                   Kate L Pugh <kake@earth.li>.
 
-1.16 2020.09.27 - Updates to build tooling. Addition of 'use warnings'
+1.15 2020.09.27 - Updates to build tooling. Addition of 'use warnings'
+
+1.16 2020.09.27 - Fixed permissions for Build.PL and Makefile.PL. Added strict and warnings to
+                  Search::InvertedIndex::Db::Mysql
+
+1.17 2020.09.27 - Added LICENSE file to MANIFEST
 
 =head2 Public API
 
@@ -3791,7 +3795,7 @@ sub DESTROY {
 
 =head1 VERSION
 
-1.16
+1.17
 
 =head1 COPYRIGHT
 

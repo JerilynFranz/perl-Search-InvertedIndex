@@ -7,7 +7,7 @@ use Class::NamedParms;
 use vars qw (@ISA $VERSION);
 
 @ISA     = qw (Class::NamedParms);
-$VERSION = '1.16';
+$VERSION = '1.17';
 
 =head1 NAME
 
