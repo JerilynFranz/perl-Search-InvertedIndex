@@ -46,3 +46,6 @@
                   Kate L Pugh <kake@earth.li>.
 
 1.15 2020.09.27 - Updates to build tooling. Addition of 'use warnings'
+
+1.16 2020.09.27 - Fixed permissions for Build.PL and Makefile.PL. Added strict and warnings to
+                  Search::InvertedIndex::Db::Mysql

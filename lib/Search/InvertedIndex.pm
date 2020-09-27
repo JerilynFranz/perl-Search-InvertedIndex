@@ -10,7 +10,7 @@ use Search::InvertedIndex::AutoLoader;
 use vars qw (@ISA $VERSION);
 
 @ISA     = qw(Class::NamedParms);
-$VERSION = '1.15';
+$VERSION = '1.16';
 
 # Used to catch attempts to open the same -map
 # to multiple objects simultaneously and to
@@ -245,7 +245,7 @@ determine initialization requirements.
                   Addition of a test for MySQL functionality, Patch and test thanks to
                   Kate L Pugh <kake@earth.li>.
 
-1.15 2020.09.27 - Updates to build tooling. Addition of 'use warnings'
+1.16 2020.09.27 - Updates to build tooling. Addition of 'use warnings'
 
 =head2 Public API
 
@@ -3791,7 +3791,7 @@ sub DESTROY {
 
 =head1 VERSION
 
-1.15
+1.16
 
 =head1 COPYRIGHT
 

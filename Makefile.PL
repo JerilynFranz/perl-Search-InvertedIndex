@@ -7,7 +7,9 @@ WriteMakefile(
     VERSION_FROM     => 'lib/Search/InvertedIndex.pm',
     MIN_PERL_VERSION => '5.006',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002 ? ('LICENSE'  => 'mit', ) : ()),
-    PREREQ_PM      => { 'Digest::SHA1'            => 0,
+    PREREQ_PM      => {
+	                'Carp'                    => 0,
+	                'Digest::SHA1'            => 0,
                         'DB_File'                 => 0,
                         'Class::ParmList'         => '1.03',
                         'Class::NamedParms'       => '1.04',

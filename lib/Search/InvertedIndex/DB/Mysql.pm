@@ -1,5 +1,8 @@
 package Search::InvertedIndex::DB::Mysql;
 
+use strict;
+use warnings;
+
 use DBI;
 use Carp;
 use Class::NamedParms;
@@ -7,7 +10,7 @@ use Class::ParmList;
 use vars qw (@ISA $VERSION);
 
 @ISA     = qw(Class::NamedParms);
-$VERSION = "1.15";
+$VERSION = "1.16";
 
 # This is supposed to keep the same database table
 # from being opened more than once. But I'm not sure

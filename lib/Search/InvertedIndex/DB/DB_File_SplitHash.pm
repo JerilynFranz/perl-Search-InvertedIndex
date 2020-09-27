@@ -12,7 +12,7 @@ use Tie::DB_File::SplitHash;
 use vars qw (@ISA $VERSION);
 
 @ISA     = qw(Class::NamedParms);
-$VERSION = "1.15";
+$VERSION = "1.16";
 
 # Used to catch attempts to open the same db 
 # to multiple objects simultaneously and to
